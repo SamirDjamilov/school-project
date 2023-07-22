@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+
+
+    div {
+        flex-wrap: wrap;
+    }
+
+    :root {
+        font-size: 10px;
+
+    }
+
+    .imgd {
+        display: none;
+    }
+
+    .container img {
+        width: 1000px;
+    }
+
+    .coments {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .header ul {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,71 @@
+@media only screen and (max-width: 600px) {
+
+
+    div {
+        flex-wrap: wrap;
+    }
+
+    :root {
+        font-size: 14px;
+
+    }
+
+    .hero {
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .categories {
+        gap: 10px;
+        padding-bottom: 30px;
+    }
+
+    .imgd {
+        display: none;
+    }
+
+    .columns {
+        gap: 20px;
+        justify-content: center;
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .hero_img {
+
+        display: none;
+    }
+
+    .container1 img {
+        max-width: 100%;
+    }
+
+    .container img {
+        max-width: 100%;
+    }
+
+    .container2 img {
+        max-width: 100%;
+    }
+
+    .enb ul {
+        flex-direction: column;
+    }
+
+    .coments {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .header ul {
+        flex-direction: column;
+    }
+}
